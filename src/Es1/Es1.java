@@ -27,7 +27,7 @@ public class Es1 {
             System.out.println(word);
         }
 
-        System.out.println("Parole duplicate:"); //non posso duplicare gli elementi in un set, quindi li aggiungo ad uno nuovo
+        System.out.println("Parole duplicate:"); //non posso duplicare gli elementi in un set, quindi li aggiungo ad un nuovo set
         for (String word : duplicateWords){
             System.out.println(word);
         }
