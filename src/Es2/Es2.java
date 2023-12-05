@@ -42,9 +42,9 @@ public class Es2 {
         System.out.println("Lista al contrario: " + list);
 
         System.out.println("Elementi in posizione pari:");
-        printEvenOrOdd(randomNum, true);
+        printEvenOrOdd(randomNum, false);
 
         System.out.println("Elementi in posizione dispari:");
-        printEvenOrOdd(randomNum, false);
+        printEvenOrOdd(randomNum, true);
     }
 }
